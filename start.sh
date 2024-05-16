@@ -1,3 +1,4 @@
 #!/bin/bash
 
-gunicorn -b 0.0.0.0:5000 run_mlflow:app
+# Start the MLflow server using Python
+python run_mlflow.py
